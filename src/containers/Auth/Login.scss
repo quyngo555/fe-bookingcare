@@ -1,0 +1,89 @@
+.login-background {
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    height: 100vh;
+
+    .login-container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 450px;
+        width: 400px;
+        background-color: #fff;
+        margin: auto;
+        border-radius: 25px;
+
+        .login-content {
+            padding: 15px;
+
+            .text-login {
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+
+            .login-input {
+                margin: 10px 0;
+            }
+
+            .custom-input-password {
+                display: flex;
+                position: relative;
+
+                i {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                }
+            }
+
+            .btn-login {
+                width: 100%;
+                height: 35px;
+                color: #fff;
+                border-radius: 15px;
+                outline: none;
+                border: none;
+                margin: 10px 0;
+                background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+            }
+
+            .forgot-password {
+                font-size: 12px;
+            }
+
+            .social-login {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                
+                .google {
+                    font-size: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    background-color: #dc4e41;
+                }
+                .facebook {
+                    font-size: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    background-color: #3b5998 ;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
